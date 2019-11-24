@@ -1,0 +1,26 @@
+<div style="background: #ECECEC;padding:30px;">test
+    <div nz-row [nzGutter]="6">
+        <div nz-col nzSpan="6" *ngFor="let item of zhaoshis">
+            <nz-card style="width:240px;height: 490px;" [nzCover]="coverTemplate" [nzActions]="[property]">
+                <nz-card-meta [nzTitle]="item.name" [nzDescription]="item.effect"></nz-card-meta>
+            </nz-card>
+            <ng-template #coverTemplate>
+                <img style="width: 238px;height: 300px;" [src]="item.img" />
+            </ng-template>
+            <ng-template #property>
+                <div nz-col nzSpan="12">
+                    <img style="width: 20px;height: 20px;" src="../../assets/imgs/xingdongli.png" alt="">
+                    {{item.xindongli}}
+                </div>
+                <!-- <div nz-col nzSpan="8">
+                    <img style="width: 20px;height: 20px;" src="../../assets/imgs/menpai.png" alt="">
+                    {{item.menpai}}
+                </div> -->
+                <div nz-col nzSpan="12">
+                    <img style="width: 20px;height: 20px;" src="../../assets/imgs/pailei.png" alt="">
+                    {{item.pailei}}
+                </div>
+            </ng-template>
+        </div>
+    </div>
+</div>
