@@ -335,6 +335,104 @@ export class CardListComponent implements OnInit {
       effect: "获得25点格挡，消耗",
       pailei: this.pailei.ji_neng
     },
+    {
+      xindongli: 3,
+      name: "龙象般若功",
+      img: "http://pic.yupoo.com/nickzhang/8ba2a405/ac972a0f.png",
+      effect: "每回合开始获得3点力量",
+      pailei: this.pailei.neng_li
+    },
+    {
+      xindongli: 2,
+      name: "吸星大法",
+      img: "http://pic.yupoo.com/nickzhang/e0353f91/4f566d8d.png",
+      effect: "对所有敌人造成3点伤害，未被格挡的伤害将恢复你的生命值，消耗",
+      pailei: this.pailei.gong_ji
+    },
+    {
+      xindongli: 1,
+      name: "北冥神功",
+      img: "http://pic.yupoo.com/nickzhang/e0353f91/4f566d8d.png",
+      effect: "造成6点伤害，如果这张牌击败敌人，则永久提升3点血量，消耗",
+      pailei: this.pailei.gong_ji
+    },
+    {
+      xindongli: 0,
+      name: "八门遁甲",
+      img: "http://pic.yupoo.com/nickzhang/5d311c82/97c177a2.png",
+      effect: "失去4点体力，获得两点行动力，抽5张牌，消耗",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 1,
+      name: "太玄经",
+      img: "http://pic.yupoo.com/nickzhang/1092af64/bf61bc9d.png",
+      effect: "力量翻倍",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 3,
+      name: "金刚般若掌",
+      img: "http://pic.yupoo.com/nickzhang/cbebd717/0ecc40e4.png",
+      effect: "造成21点伤害",
+      pailei: this.pailei.gong_ji
+    },
+    {
+      xindongli: 0,
+      name: "普陀功",
+      img: "http://pic.yupoo.com/nickzhang/2f1427fd/292d3f57.png",
+      effect: "获得3点力量，回合结束时失去3点力量。",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 1,
+      name: "小无相功",
+      img: "http://pic.yupoo.com/nickzhang/8f054b7e/62d12701.png",
+      effect: "获得4点格挡，如果这样拍被消耗，则获得3点行动力。",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 0,
+      name: "混元功",
+      img: "http://pic.yupoo.com/nickzhang/4adaf27f/7d5038ae.png",
+      effect: "失去3点生命，获得2点行动力",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 2,
+      name: "夺命连环三仙剑",
+      img: "http://pic.yupoo.com/nickzhang/653504b9/2cf88481.png",
+      effect: "消耗所有非攻击手牌，造成10点伤害",
+      pailei: this.pailei.gong_ji
+    },
+    {
+      xindongli: 1,
+      name: "移形换位",
+      img: "http://pic.yupoo.com/nickzhang/f04d254a/6ec9c9cb.png",
+      effect: "选择一张已消耗的牌，放入你的手牌。消耗",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 2,
+      name: "蛤蟆功",
+      img: "http://pic.yupoo.com/nickzhang/2f1427fd/292d3f57.png",
+      effect: "消耗所有手牌，每张手牌造成6点伤害。消耗",
+      pailei: this.pailei.gong_ji
+    },
+    {
+      xindongli: 1,
+      name: "枯荣禅功",
+      img: "http://pic.yupoo.com/nickzhang/09fb4e60/01f47eaa.png",
+      effect: "1获得7点格挡，虚无（获得一张虚无，不能打出，回合结束后消耗）",
+      pailei: this.pailei.ji_neng
+    },
+    {
+      xindongli: 1,
+      name: "无妄神功",
+      img: "http://pic.yupoo.com/nickzhang/04953e1f/ae97b0a8.png",
+      effect: "每当有一张牌被消耗时，抽一张牌。",
+      pailei: this.pailei.neng_li
+    },
   ]
 
   ngOnInit() {
